@@ -1,0 +1,23 @@
+{
+  "name": "pym",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pepe Becker <mail@pepebecker.com> (https://pepe.asia)",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "pym.js": "^1.3.2"
+  }
+}
