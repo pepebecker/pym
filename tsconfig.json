@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "module": "ESNext",
-    "outDir": "./lib",
-    "esModuleInterop": true,
+    "target": "ES2015",
+    "module": "ES2020",
     "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "outDir": "./lib/esm",
     "declaration": true,
+    "declarationDir": "./lib/types",
   },
-  "files": [
-    "./src/index.ts",
-    "./src/pym.d.ts"
-  ]
+  "include": [
+    "./src",
+  ],
 }
